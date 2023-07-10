@@ -1,0 +1,9 @@
+#viewDiv{
+    height: 600px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2c2c2cfb;
+    background-color: rgb(246, 246, 246);
+    text-align: center;
+    border-radius: 50px;
+}
