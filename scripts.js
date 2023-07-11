@@ -31,7 +31,7 @@ const map = new ol.Map({
     ],
     view: new ol.View({
       center: ol.proj.fromLonLat([35.930359, 31.963158]),
-      zoom: 12,
+      zoom: 10,
     }),
   });
   
@@ -70,9 +70,10 @@ function geocodeAndPlaceMarker(city) {
   
         // Center the map on the marker
         map.getView().setCenter(ol.proj.fromLonLat([lon, lat]));
-        map.getView().setZoom(12);
+        map.getView().setZoom(10);
       },
       error: function ajaxError(jqXHR) {
+          alert("ERROR: -- Input invalid")
           console.error('Error: ', jqXHR.responseText);
       }
     });

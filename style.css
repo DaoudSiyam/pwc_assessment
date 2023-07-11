@@ -1,9 +1,58 @@
 #viewDiv{
-    height: 600px;
+    height: 645px;
     font-weight: bolder;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #2c2c2cfb;
     background-color: rgb(246, 246, 246);
     text-align: center;
-    border-radius: 50px;
 }
+
+.nav-bar{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: -8px;
+}
+
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 10px;
+}
+
+.search-box{
+    font-size: 18px;
+    height: 42px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: black;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 25px;
+    border: 2px solid black;
+}
+
+.search-icon{
+    width: 20px;
+}
+
+#submit-button{
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-left: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#submit-button:hover{
+    background-color: rgb(225, 225, 225);
+    transition: 0.5s;
+}   
